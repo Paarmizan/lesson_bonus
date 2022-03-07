@@ -1,0 +1,359 @@
+/* ===============ПОДКЛЮЧЕНИЯ=============== */
+
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ===============СКАЧЕННЫЕ ШРИФТЫ=============== */
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ===============WRAPPER=============== */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    font-family: "Larsseit", sans-serif;
+}
+
+/* ===============INDEX=============== */
+
+.thrivetalk {
+    background: #f4f9e2;
+    padding: 27px 0 75px 180px;
+}
+.header {
+}
+.header__company-name {
+    color: #62d0df;
+    font-size: 24px;
+    font-weight: 700;
+}
+.header__map-site {
+    font-size: 14px;
+    line-height: 1.15;
+}
+.header__map-site a:last-child {
+    margin-right: 0;
+}
+.header__chapter {
+    margin-right: 24px;
+}
+.header__contact {
+    display: inline-block;
+    padding: 20px 30px;
+    background: #62d0df;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.thrivetalk__container {
+    max-width: 465px;
+}
+.trivetalk__title {
+    color: #62d0df;
+    font-size: 24px;
+    line-height: 1.15;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.trivetalk__slogan {
+    color: #22356f;
+    font-size: 48px;
+    line-height: 1.15;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin-bottom: 70px;
+}
+.trivetalk__text {
+    color: #22356f;
+    font-size: 24px;
+    line-height: 1.75;
+    margin-bottom: 70px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #f9b640;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.button_topsy-turvy {
+    background: none;
+    color: #f9b640;
+}
+.travetalk__picture {
+}
+.why-trive {
+    background: #62d0df;
+    padding: 150px 0 95px 180px;
+    color: #fff;
+}
+.why-trive__container {
+    max-width: 555px;
+}
+.why-trive__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 75px;
+}
+.why-trive__text {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.why-trive__main-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+.why-trive__picture {
+}
+.about-us {
+    padding: 150px 424px 20px 424px;
+    color: #22356f;
+    line-height: 1.4;
+}
+.about-us__title {
+    font-size: 16px;
+}
+.about-us__text {
+    max-width: 592px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+.we-help {
+    padding: 60px 0 20px 0;
+}
+.we-help__title {
+    color: #909ab7;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.small-cards div:last-child {
+    margin-bottom: 120px;
+}
+.card-small {
+    padding: 50px 50px 200px 50px;
+    max-width: 360px;
+    height: 360px;
+}
+.card-small_bg-pink {
+    background: #ffe2de;
+}
+.card-small__strip {
+    width: 100%;
+    height: 2px;
+    margin: 0 auto;
+    background: #fff;
+    margin-bottom: 23px;
+}
+.card-small__title {
+    display: inline-block;
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 700;
+    text-align: center;
+}
+.card-small__title::before {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: #e9b730;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.card-small_bg-green {
+    background: #c4e769;
+}
+.card-small_bg-turquoise {
+    background: #62d0df;
+}
+.card-small_bg-blue {
+    background: #0052c1;
+}
+.big-cards {
+}
+.card-big {
+    padding: 100px 70px 0 70px;
+    min-height: 480px;
+    max-width: 480px;
+}
+.card-big_bg-darkblue {
+    background: #22356f;
+}
+.card-big__strip {
+    width: 100%;
+    height: 2px;
+    margin: 0 auto;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.card-big__title {
+    display: inline-block;
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 700;
+    text-align: center;
+}
+.card-big__title::before {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: #e9b730;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.card-big_bg-blue {
+    background: #0052c1;
+}
+.card-big_bg-coctail {
+    background: url("../img/coctail.jpg") center/cover no-repeat;
+}
+.card-big_bg-turquoise {
+    background: #62d0df;
+}
+.card-big_bg-lightlilac {
+    background: #dee1ff;
+}
+.card-big_bg-lilac {
+    background: #8f00ff;
+}
+.health-rules {
+    padding: 0 0 40px 0;
+}
+.card-rule {
+    padding: 60px 80px 40px 100px;
+    max-width: 480px;
+}
+.card-rule__title {
+    color: #22356f;
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 28px;
+}
+.card-rule__text {
+    color: #909ab7;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.should-know {
+    padding: 100px 20px 40px 20px;
+}
+.should-know__title {
+    color: #22356f;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 225px;
+}
+.should-know__text {
+    color: #22356f;
+    font-size: 36px;
+    line-height: 1.5;
+    max-width: 676px;
+    font-weight: 700;
+    margin-bottom: 150px;
+}
+.should-know__mark-text {
+    color: #62d0df;
+}
+.should-know__picture {
+}
+.contact-us {
+    padding: 100px 0 40px 0;
+    background: #22356f;
+    color: #fff;
+}
+.contact-us__container {
+    max-width: 538px;
+    margin-left: 180px;
+}
+.contact-us__title {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 230px;
+}
+.contact-us__text {
+    font-size: 36px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+.contact-us__text_big {
+    font-size: 64px;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-bottom: 75px;
+}
+.button_color-clue {
+    color: #62d0df;
+}
+.contact-us__picture {
+}
+.footer {
+}
+.footer__picture {
+}
+.column {
+}
+.column__title {
+    color: #22356f;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.column__items {
+    color: #909ab7;
+    max-width: 176px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.column__item_blue {
+    color: #006dff;
+}
+.column__item {
+}
+.footer__copyright {
+    background: #62d0df;
+    padding: 32px 0 26px 200px;
+}
+.footer__text-copyright {
+    color: #fff;
+    font-weight: 700;
+}
